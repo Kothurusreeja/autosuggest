@@ -36,16 +36,24 @@
     left: 35px;
     
 }
-.search-box
+.search
 {
     padding: 15px 15px 15px 45px;
     border-radius: 30px;
     width:40%;
+  
+    
 }
-#suggestion-box
+/* #suggestion-box
 {
     border:1px solid black;
     width:43%;
     justify-content: center;
     margin-left:29.4%;
-}
+} */
+ #suggestion-item
+ {
+    border:1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+ }
