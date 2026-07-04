@@ -4,5 +4,48 @@
     justify-content: center;
     padding: 20px;
     border-color: rgba(78,79,80,0.636);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+.left-bar{
+  position: fixed;
+  top:20px;
+    left: 20px;
+}
+.right-bar{
+    position: fixed;
+    top:20px;
+    right: 20px;
+
+}
+.head1
+{
+    color: hsl(0, 87%, 50%);
+}
+.head2
+{
+    color: lab(41.62% 45.05 -75.95);
+}
+.para
+{
+    color:gray;
+}
+.lens
+{
+    position:relative;
+    left: 35px;
     
+}
+.search-box
+{
+    padding: 15px 15px 15px 45px;
+    border-radius: 30px;
+    width:40%;
+}
+#suggestion-box
+{
+    border:1px solid black;
+    width:43%;
+    justify-content: center;
+    margin-left:29.4%;
 }
